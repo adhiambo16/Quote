@@ -7,7 +7,7 @@ export class Quote {
     constructor(public id: number, public name: string, public description: string, public completeDate: Date, ) {
 
 this.showDescription = false;
-// this.upvotes = 0;
+this.upvotes = 0;
 // this.downvotes = 0;
 // }
 
