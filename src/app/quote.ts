@@ -1,5 +1,5 @@
 export class Quote {
-    //  //  public upvotes: number;
+     //  public upvotes: number;
      public downvotes: number;
      public showDescription: boolean;
   
