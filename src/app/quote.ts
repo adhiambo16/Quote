@@ -1,7 +1,8 @@
 export class Quote {
-    // public showDescription: boolean;
-    //  public upvotes: number;
+    //  //  public upvotes: number;
     //  public downvotes: number;
+     public showDescription: boolean;
+  
     // tslint:disable-next-line:max-line-length
     constructor(public id: number, public name: string, public description: string, public completeDate: Date, ) {
 
