@@ -1,6 +1,6 @@
 export class Quote {
     //  //  public upvotes: number;
-    //  public downvotes: number;
+     public downvotes: number;
      public showDescription: boolean;
   
     // tslint:disable-next-line:max-line-length
