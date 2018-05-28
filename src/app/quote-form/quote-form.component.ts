@@ -6,7 +6,7 @@ import { Quote } from '../quote';
   templateUrl: './quote-form.component.html',
   styleUrls: ['./quote-form.component.css']
 // tslint:disable-next-line:semicolon
-}
+})
 
  export class QuoteFormComponent implements OnInit {
  newQuote = new Quote(0, '',  '', new Date());   @Output() savequote = new EventEmitter<Quote>();
