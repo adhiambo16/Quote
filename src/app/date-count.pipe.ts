@@ -14,7 +14,7 @@ import { Pipe, PipeTransform } from '@angular/core';
     // tslint:disable-next-line:prefer-const
      const dateDifferenceSeconds =  dateDifference * 0.001; // converts to seconds
 
-    // const dateCounter = dateDifferenceSeconds /  secondsInADay;
+     const dateCounter = dateDifferenceSeconds /  secondsInADay;
 
     // if (dateCounter >= 1) {
     //     return dateCounter;
