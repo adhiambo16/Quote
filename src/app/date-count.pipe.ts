@@ -11,8 +11,8 @@ import { Pipe, PipeTransform } from '@angular/core';
     const dateDifference = Math.abs(value - todayWithNoTime ); // returns value in milliseconds
     const secondsInADay = 86400; // 60 seconds*60 minutes in an hour *24 hours
 
-    // // tslint:disable-next-line:prefer-const
-    // const dateDifferenceSeconds =  dateDifference * 0.001; // converts to seconds
+    // tslint:disable-next-line:prefer-const
+     const dateDifferenceSeconds =  dateDifference * 0.001; // converts to seconds
 
     // const dateCounter = dateDifferenceSeconds /  secondsInADay;
 
